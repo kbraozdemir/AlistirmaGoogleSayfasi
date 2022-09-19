@@ -1,0 +1,47 @@
+img{
+    width: 350px;
+}
+
+.input{
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.spacial-search{
+    background-color: cadetblue;
+    
+}
+
+.spacial-menu{
+    background-color: darkseagreen;
+    
+}
+
+.spacial-email{
+    background-color: darkolivegreen;
+    
+    
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header, .input-text, .input-button, .spacial-email,.spacial-menu,.spacial-search{
+    display: flex;
+    justify-content: center;
+}
+
+.spacial-email,.spacial-menu,.spacial-search{
+    padding: 20px;
+    margin: 10px, 1px;
+    
+}
+
+ul{
+    list-style: none;
+}
